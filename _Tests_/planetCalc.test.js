@@ -17,4 +17,8 @@ describe('planetCalc', () => {
             ageDiff: 20
         }); 
     })
+    test('it should return users age, birthdate age and ageDiff with Mercury age values', () => {
+        barbiePlanet.mercuryAgeCalc();
+        expect(barbiePlanet.mercuryAge).toBe(187)
+    })
 })
