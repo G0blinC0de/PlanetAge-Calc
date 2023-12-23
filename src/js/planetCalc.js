@@ -5,6 +5,10 @@ export class planetCalc {
         this.ageCalc = ageCalcInstance;
     }
     getAgeCalcValue() {
-
+        return {
+            currentAge: this.ageCalc.ageCurr,
+            birthdayAge: this.ageCalc.birthdayAge,
+            ageDiff: this.ageCalc.ageDiff
+        };
     }
 }
