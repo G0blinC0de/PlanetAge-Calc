@@ -13,6 +13,6 @@ export class planetCalc {
         };
     }
     mercuryAgeCalc() {
-
+        this.mercuryAge = parseInt(this.ageCalc.ageCurr / .24);
     }
 }
