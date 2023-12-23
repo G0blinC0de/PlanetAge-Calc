@@ -9,4 +9,7 @@ describe('ageCalc', () => {
     test("should take take age input from user", () => {
         expect(barbie.ageCurr).toBe(45);
     })
+    test("should take birthday age input from user", () => {
+        expect(barbie.birthdayAge).toBe(65);
+    })
 })
