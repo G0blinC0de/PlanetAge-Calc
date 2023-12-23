@@ -4,6 +4,7 @@ export class planetCalc {
     constructor(ageCalcInstance) {
         this.ageCalc = ageCalcInstance;
         this.mercuryAge;
+        this.mercuryDiff;
     }
     getAgeCalcValue() {
         return {
@@ -14,5 +15,6 @@ export class planetCalc {
     }
     mercuryAgeCalc() {
         this.mercuryAge = parseInt(this.ageCalc.ageCurr / .24);
+        this.mercuryDiff = parseInt(this.ageCalc.ageDiff / .24);
     }
 }

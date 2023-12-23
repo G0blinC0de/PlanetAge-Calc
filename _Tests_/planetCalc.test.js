@@ -21,5 +21,6 @@ describe('planetCalc', () => {
         barbiePlanet.getAgeCalcValue();
         barbiePlanet.mercuryAgeCalc();
         expect(barbiePlanet.mercuryAge).toBe(187)
+        expect(barbiePlanet.mercuryDiff).toBe(83)
     })
 })
