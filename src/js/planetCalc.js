@@ -17,7 +17,8 @@ export class planetCalc {
         this.mercuryAge = parseInt(this.ageCalc.ageCurr / .24);
         this.mercuryDiff = parseInt(this.ageCalc.ageDiff / .24);
     }
-    // venusAgeCalc() {
-
-    // }
+    venusAgeCalc() {
+        this.venusAge = parseInt(this.ageCalc.ageCurr / .62);
+        this.venusDiff = parseInt(this.ageCalc.ageDiff / .62);
+    }
 }
