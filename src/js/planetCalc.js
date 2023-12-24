@@ -1,10 +1,10 @@
-// import { ageCalc } from "./ageCalc";
-
 export class planetCalc {
     constructor(ageCalcInstance) {
         this.ageCalc = ageCalcInstance;
         this.mercuryAge;
         this.mercuryDiff;
+        this.venusAge;
+        this.venusDiff;
     }
     getAgeCalcValue() {
         return {
@@ -17,4 +17,7 @@ export class planetCalc {
         this.mercuryAge = parseInt(this.ageCalc.ageCurr / .24);
         this.mercuryDiff = parseInt(this.ageCalc.ageDiff / .24);
     }
+    // venusAgeCalc() {
+
+    // }
 }

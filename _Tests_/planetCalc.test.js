@@ -17,10 +17,16 @@ describe('planetCalc', () => {
             ageDiff: 20
         }); 
     })
-    test('it should return users age, birthdate age and ageDiff with Mercury age values', () => {
+    test('it should return users age and ageDiff with Mercury age values', () => {
         barbiePlanet.getAgeCalcValue();
         barbiePlanet.mercuryAgeCalc();
         expect(barbiePlanet.mercuryAge).toBe(187)
         expect(barbiePlanet.mercuryDiff).toBe(83)
+    })
+    test('it should return users age and ageDiff with Venus age values', () => {
+        barbiePlanet.getAgeCalcValue();
+        barbiePlanet.venusAgeCalc();
+        expect(barbiePlanet.venusAge).toBe(72)
+        expect(barbiePlanet.venusDiff).toBe(32)
     })
 })
