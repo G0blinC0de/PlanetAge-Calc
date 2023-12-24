@@ -20,7 +20,7 @@
 ## Setup/Installation Requirements
 
 
-* Navigate to 
+* Navigate to https://github.com/G0blinC0de/PlanetAge-Calc
 * _Clone Repository and Download_
 * _Using Gitbash, navigate to cloned folder in directory_
 * _Run in VS Code_
