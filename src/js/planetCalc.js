@@ -30,6 +30,7 @@ export class planetCalc {
         this.marsDiff = parseInt(this.ageCalc.ageDiff / 1.88);
     }
     jupiterAgeCalc() {
-
+        this.jupiterAge = parseInt(this.ageCalc.ageCurr / 11.86);
+        this.jupiterDiff = parseInt(this.ageCalc.ageDiff / 11.86);
     }
 }
