@@ -21,4 +21,7 @@ export class planetCalc {
         this.venusAge = parseInt(this.ageCalc.ageCurr / .62);
         this.venusDiff = parseInt(this.ageCalc.ageDiff / .62);
     }
+    marsAgeCalc() {
+        
+    }
 }
