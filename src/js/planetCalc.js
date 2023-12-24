@@ -7,6 +7,8 @@ export class planetCalc {
         this.venusDiff;
         this.marsAge;
         this.marsDiff;
+        this.jupiterAge;
+        this.jupiterDiff;
     }
     getAgeCalcValue() {
         return {
@@ -26,5 +28,8 @@ export class planetCalc {
     marsAgeCalc() {
         this.marsAge = parseInt(this.ageCalc.ageCurr / 1.88);
         this.marsDiff = parseInt(this.ageCalc.ageDiff / 1.88);
+    }
+    jupiterAgeCalc() {
+
     }
 }

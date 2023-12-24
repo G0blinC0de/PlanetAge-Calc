@@ -35,5 +35,11 @@ describe('planetCalc', () => {
         expect(barbiePlanet.marsAge).toBe(23)
         expect(barbiePlanet.marsDiff).toBe(10)
     })
+    test('it should return users age and ageDiff with Jupiter age values', () => {
+        barbiePlanet.getAgeCalcValue();
+        barbiePlanet.jupiterAgeCalc();
+        expect(barbiePlanet.jupiterAge).toBe(3)
+        expect(barbiePlanet.jupiterDiff).toBe(1)
+    })
     
 })
